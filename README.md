@@ -23,7 +23,7 @@ el 2.
 
 ## Declaración de Uso de Inteligencia Artificial (Integridad Académica)
 - **Herramienta utilizada:** Gemini
-- **Propósito:** Ayuda para los comandos utilizados en git bash para la conexión del ejercicio 1, la verificacion de citas de bibliografias y ayuda para verificación de los modelos entidad relacion extendido. 
+- **Propósito:** Ayuda para los comandos utilizados en git bash para la conexión del ejercicio 1, la verificacion de citas de bibliografias, tambien para poner en funcionamiento el ejercicio 2 y consulta de errores y ayuda para verificación de los modelos entidad relacion extendido. 
 
 ## Bibliografías
 -González Casiano, U., Maldonado Mejía, M. T., y Hurtado Avilés, G. (en prensa). A dimensional data warehouse for geospatial monitoring of municipal public works, with an evolution path toward a lakehouse architecture. En *Advances in Computer Science Applications and Research*. Springer.
