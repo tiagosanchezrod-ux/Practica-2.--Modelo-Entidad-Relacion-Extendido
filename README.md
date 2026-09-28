@@ -20,6 +20,9 @@ el 2.
 
 ## Issues de las Propuestas de Mejora
 - [Propuestas de Mejora Santiago](practica2/propuestas/Propuestas%20Santiago.pdf)
+- [Propuesta 1: Registro de validación cruzada con reportes de fuga](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/3)
+- [Propuesta 2: Optimización de Rendimiento Frontend (Carga Diferida)](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/4)
+- [Propuesta 3: Alertas de consumo por concentración comercial-residencial](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/5)
 
 ## Declaración de Uso de Inteligencia Artificial (Integridad Académica)
 - **Herramienta utilizada:** Gemini
