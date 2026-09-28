@@ -10,7 +10,7 @@ SACMEX. Repositorio: https://github.com/gabrielhuav/Data_Warehouse_static. Artí
 el 2.
 
 ## Enlace al Fork
-- Dirección del fork: https://github.com/gabrielhuav/Data_Warehouse_static.
+- Dirección del fork: https://github.com/val0444/Data_Warehouse_static.
 
 ## Confirmación de Puesta en Funcionamiento
 - **Estado:** Confirmado y funcional.
