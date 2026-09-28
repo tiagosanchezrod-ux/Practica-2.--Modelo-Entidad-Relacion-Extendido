@@ -11,7 +11,7 @@ el 2.
 
 ## Enlace al Fork
 - Dirección del fork: https://github.com/val0444/Data_Warehouse_static.
-
+- Commit utilizado: `b9366f0`
 ## Confirmación de Puesta en Funcionamiento
 - **Estado:** Confirmado y funcional.
 - **Detalles de ejecución:**
