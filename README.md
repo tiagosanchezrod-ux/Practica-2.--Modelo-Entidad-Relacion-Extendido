@@ -23,7 +23,10 @@ el 2.
 - [Propuesta 1: Registro de validación cruzada con reportes de fuga](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/3)
 - [Propuesta 2: Optimización de Rendimiento Frontend (Carga Diferida)](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/4)
 - [Propuesta 3: Alertas de consumo por concentración comercial-residencial](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/5)
-
+- [Propuestas de Mejora Valeria](practica2/propuestas/Propuestas%20Val.pdf)
+- [Valeria | Propuesta 1: Predicción de riesgo de desabasto por anomalías climáticas.](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/6)
+- [Valeria | Propuesta 2: Semáforo de consumo y metas de ahorro por colonia.](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/7)
+- [Valeria | Propuesta 3: Priorización de Manzanas con Infraestructura Crítica (Escuelas y Hospitales)](https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/8)
 ## Declaración de Uso de Inteligencia Artificial (Integridad Académica)
 - **Herramienta utilizada:** Gemini
 - **Propósito:** Ayuda para los comandos utilizados en git bash para la conexión del ejercicio 1, la verificacion de citas de bibliografias, tambien para poner en funcionamiento el ejercicio 2 y consulta de errores y ayuda para verificación de los modelos entidad relacion extendido. 
