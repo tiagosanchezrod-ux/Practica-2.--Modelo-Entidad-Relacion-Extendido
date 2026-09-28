@@ -19,7 +19,7 @@ el 2.
   2. Se verificó la conexión de la base de datos PostgreSQL y la correcta ejecución del esquema.
 
 ## Issues de las Propuestas de Mejora
-
+- [Propuestas de Mejora Santiago](practica2/propuestas/Propuestas_Santiago.pdf)
 
 ## Declaración de Uso de Inteligencia Artificial (Integridad Académica)
 - **Herramienta utilizada:** Gemini
