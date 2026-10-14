@@ -9,8 +9,12 @@
 
 ## 2. Integrantes del Equipo
 * **Sánchez Rodríguez Santiago**
-* **Casasola Ávalos Diana Valeria** 
+* **Casasola Ávalos Diana Valeria**
 
-## 3. Enlaces a los Issues de Evidencia Individual (Ejercicio 8)
+## 3. Carpetas
+  * Proyecto-asignado (https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/tree/practica2/practica3/proyecto-asignado)
+  * Proyecto-propio (https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/tree/practica2/practica3/proyecto-propio)
+
+## 4. Enlaces a los Issues de Evidencia Individual (Ejercicio 8)
 * Issue de Santiago Sánchez https://github.com/tiagosanchezrod-ux/Practica-2.--Modelo-Entidad-Relacion-Extendido/issues/10
 * Issue de Diana Valeria
