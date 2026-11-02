@@ -56,9 +56,22 @@ La tabla resume los privilegios otorgados a cada rol sobre el sistema de gestió
 | **planta_tratamiento** | `ALL PRIVILEGES` | `SELECT, INSERT, UPDATE` | `SELECT` |
 | **recepcion_equipo** | `ALL PRIVILEGES` | `SELECT, INSERT, UPDATE` | `SELECT` |
 
----
+```
 
 ## 4. Evidencia de Pruebas y Comprobación con REVOKE
+
 * **Prueba Rol Aplicación (`rol_app`):** Consulta permitida e intento de inserción denegado por el gestor.
-* **Prueba Rol Consulta (`rol_consulta`):** Lectura/escritura permitidas e intento de eliminación (`DELETE`) denegado.
+![Evidencia 1](./imagenes/1.jpeg)
+![Evidencia 2](./imagenes/2.jpeg)
+
+* **Prueba Rol Consulta (`rol_consulta`):** Lectura permitida e intento de modificación/eliminación denegado.
+
+![Evidencia 3](imagenes/3.jpeg)
+
+![Evidencia 4](imagenes/4.jpeg)
+
 * **Prueba de Revocación (`REVOKE`):** Se revocó el privilegio `UPDATE` sobre la tabla `donante` al rol `rol_app` para confirmar que el gestor deniega la actualización inmediatamente.
+
+![Evidencia 5](imagenes/5.jpeg)
+
+![Evidencia 6](imagenes/6.jpeg)
