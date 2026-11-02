@@ -1,0 +1,5 @@
+id_material,nombre_material,valormercado_kg,es_peligroso
+1,Cobre Refinado,180.50,false
+2,Plomo de Batería,45.00,true
+3,Plástico ABS,25.00,false
+4,Oro Recuperado,1250000.00,false

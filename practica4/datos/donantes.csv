@@ -1,0 +1,5 @@
+id_donante,nombre_pila,apellido_paterno,apellido_materno,correo,telefono,tipo_donante
+1,Carlos,Pérez,Gómez,carlos.perez@gmail.com,5512345678,PARTICULAR
+2,María,López,Hernández,maria.lopez@yahoo.com,5587654321,PARTICULAR
+3,ReciclaTech,S.A.,de C.V.,contacto@reciculatech.com,5555443322,EMPRESA
+4,EcoSistemas,Industriales,SAPI,ventas@ecosistemas.com,5599887766,EMPRESA
