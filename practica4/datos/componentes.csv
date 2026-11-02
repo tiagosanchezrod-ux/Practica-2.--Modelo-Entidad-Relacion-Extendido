@@ -1,0 +1,6 @@
+id_recepcion,id_componente,estado_funcional,peso_kg,tipo_componente
+1,1,REPARABLE,2.100,Tarjeta Madre
+1,2,OBSOLETO,0.450,Batería Li-ion
+2,1,PARA DESPIECE,15.000,Yugo de Cobre
+3,1,OPERATIVO,0.800,Procesador
+4,1,OBSOLETO,12.500,Fuente de Poder

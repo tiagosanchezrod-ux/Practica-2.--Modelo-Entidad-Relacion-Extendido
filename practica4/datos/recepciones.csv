@@ -1,0 +1,5 @@
+id_recepcion,id_donante,fecha_ingreso,tipo_aparato,peso_total,costo_recepcion
+1,1,2026-10-01 10:30:00,Laptops Usadas,15.500,150.00
+2,3,2026-10-02 12:00:00,Monitores CRT,120.000,850.00
+3,2,2026-10-05 09:15:00,Tarjetas Madre,8.250,50.00
+4,4,2026-10-08 14:45:00,Servidores Descontinuados,250.000,2000.00
