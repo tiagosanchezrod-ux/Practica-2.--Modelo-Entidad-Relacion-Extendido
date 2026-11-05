@@ -16,7 +16,12 @@ La tabla detalla las claves foráneas implementadas en el esquema relacional, in
 ## Justificación
 Todas las relaciones del modelo EER se tradujeron exitosamente a claves foráneas con restricciones estrictas (`NOT NULL`), asegurando la integridad referencial en el almacenamiento transaccional del gestor PostgreSQL. No se mantuvieron relaciones huérfanas ni se requirieron migraciones adicionales fuera del esquema relacional base.
 
+<<<<<<< practica4-5
 ## Ejercicio 2.2: Acciones Referenciales
+=======
+
+# Ejercicio 2.2: Acciones Referenciales
+>>>>>>> practica2
 
 Se definen las acciones referenciales (`ON DELETE` y `ON UPDATE`) aplicadas a cada clave foránea del sistema, justificando la elección en función de la integridad de los datos y las reglas:
 
@@ -30,4 +35,8 @@ Se definen las acciones referenciales (`ON DELETE` y `ON UPDATE`) aplicadas a ca
 | `recepcion_equipo` | `id_donante` | `donante` | `RESTRICT` | `CASCADE` | Un donante con historial de recepciones activas no debe ser eliminado del sistema para mantener la trazabilidad de la auditoría (`RESTRICT`). |
 | `componente` | `id_recepcion` | `recepcion_equipo` | `CASCADE` | `CASCADE` | Entidad débil/composición: los componentes desglosados pertenecen a una recepción; si la recepción se cancela/elimina, sus componentes se eliminan en cascada (`CASCADE`). |
 | `componente_material`| `id_recepcion`, `id_componente` | `componente` | `CASCADE` | `CASCADE` | Tabla intermedia de composición: si el componente desaparece, el desglose de sus materiales constitutivos debe eliminarse en cascada (`CASCADE`). |
+<<<<<<< practica4-5
 | `componente_material`| `id_material` | `material` | `RESTRICT` | `CASCADE` | No se puede borrar un tipo de material del catálogo general si hay componentes desglosados asociados a él (`RESTRICT`). |
+=======
+| `componente_material`| `id_material` | `material` | `RESTRICT` | `CASCADE` | No se puede borrar un tipo de material del catálogo general si hay componentes desglosados asociados a él (`RESTRICT`). |
+>>>>>>> practica2
