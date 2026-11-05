@@ -36,3 +36,27 @@ el 2.
 - Miro. (s.f.). *Cómo hacer un diagrama entidad-relación*. https://miro.com/es/diagrama/como-hacer-diagrama-entidad-relacion/
 - Velázquez Arrieta, E. U., Pulido Morales, O. F., García López, E., Hernández Martínez, C. A., y Hurtado Avilés, G. (en prensa). Territorial information retrieval from heterogeneous open data through the construction of a data warehouse for water management in Mexico City. En *Advances in Computer Science Applications and Research*. Springer.
 - Villa Vargas, J. M., Hurtado Avilés, G., y Climent Hernández, J. A. (2026). Cuando México tiembla: la historia contada por los datos. *AZCATL Revista de Divulgación de la Ciencia, la Ingeniería y la Innovación*, 4(6), 28–33. https://doi.org/10.24275/AZC2026E1004
+
+---
+
+## Práctica 4: Dominios, Restricciones y Seguridad
+
+* [Definición de Dominios](practica4/dominios.md)
+* [Fuentes de Datos](practica4/fuente.md)
+* [Pruebas de Dominio](practica4/pruebas-dominio.md)
+* [Permisos y Roles](practica4/permisos.md)
+* **Migraciones SQL:**
+  * [Script 001 - Dominios](practica4/migraciones/001-dominios.sql)
+  * [Script 002 - Restricciones](practica4/migraciones/002-restricciones.sql)
+
+---
+
+## Práctica 5: Integridad Referencial, Transacciones y Almacén
+
+* [Definición de Referencias](practica5/referencias.md)
+* [Pruebas de Integridad Referencial](practica5/pruebas.md)
+* [Edición de Valores y Transacciones](practica5/transacciones.md)
+* [Integridad en el Almacén Asignado](practica5/almacen_integridad.md)
+* **Trabajos Individuales (Ejercicio 2.6):**
+  * [Trabajo de Santiago Sánchez Rodríguez](practica5/trabajo_santiago.md)
+  * [Trabajo de Valeria Daniela Casasola Ávalos](practica5/trabajo_valeria.md)
