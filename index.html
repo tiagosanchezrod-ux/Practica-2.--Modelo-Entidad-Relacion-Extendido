@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro E-Waste</title>
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans">
+
+    <div class="bg-slate-950 text-slate-400 text-xs py-2 px-6 border-b border-slate-800 flex justify-between items-center flex-wrap gap-2">
+        <div>
+            <span class="text-emerald-400 font-semibold">ESCOM IPN</span> • Base de Datos (Grupo 3CV2)
+        </div>
+        <div class="flex gap-4">
+            <span><strong>Profesor:</strong> Gabriel Hurtado Avilés</span>
+            <span><strong>Alumnos:</strong> Sánchez Rodriguez Santiago y Cassasola Avalos Diana V.</span>
+        </div>
+    </div>
+
+    <header class="bg-slate-800 border-b border-slate-700 px-6 py-4 flex justify-between items-center sticky top-0 z-50">
+        <div class="flex items-center gap-3">
+            <div class="bg-emerald-500 text-slate-950 font-bold p-2 rounded-lg text-xl">♻️</div>
+            <div>
+                <h1 class="font-bold text-lg text-white leading-none">EcoTrace E-Waste</h1>
+                <p class="text-xs text-slate-400">Sistema de Trazabilidad y Reciclaje de Residuos Electrónicos</p>
+            </div>
+        </div>
+
+        <nav class="hidden md:flex gap-1 bg-slate-900 p-1 rounded-xl border border-slate-700/50">
+          
+            <button class="px-4 py-2 rounded-lg text-sm font-medium bg-emerald-600 text-white shadow-sm cursor-default">
+                1. Recepción & Donantes
+            </button>
+        
+            <button onclick="alert('Módulo en desarrollo para la siguiente entrega.')" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-500 hover:text-slate-400 cursor-not-allowed transition" title="Módulo en desarrollo">
+                2. Desensamble
+            </button>
+            <button onclick="alert('Módulo en desarrollo para la siguiente entrega.')" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-500 hover:text-slate-400 cursor-not-allowed transition" title="Módulo en desarrollo">
+                3. Envíos
+            </button>
+            <button onclick="alert('Módulo en desarrollo para la siguiente entrega.')" class="px-3 py-2 rounded-lg text-sm font-medium text-slate-500 hover:text-slate-400 cursor-not-allowed transition" title="Módulo en desarrollo">
+                4. Certificados y Reportes
+            </button>
+        </nav>
+    </header>
+
+  
+    <main class="max-w-7xl mx-auto p-6">
+
+      
+        <section class="space-y-6">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Recepción de Cargas E-Waste</h2>
+                    <p class="text-slate-400 text-sm">Registro de donantes particulares, corporativos y pesaje inicial en báscula.</p>
+                </div>
+                <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-3 py-1 rounded-full text-xs font-semibold">
+                    Módulo Operativo Activo
+                </span>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-6">
+              
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 shadow-xl lg:col-span-1">
+                    <h3 class="text-lg font-bold text-emerald-400 mb-4 flex items-center gap-2">Nuevo Ingreso a Báscula</h3>
+                    <form onsubmit="event.preventDefault(); alert('Simulación: Recepción registrada con éxito en la base de datos.');" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Tipo de Donante</label>
+                            <select class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-sm text-slate-200 focus:border-emerald-500 focus:outline-none">
+                                <option>Empresa Corporativa (DONANTE_EMPRESA)</option>
+                                <option>Particular / Ciudadano (DONANTE_PARTICULAR)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Razón Social / Nombre Donante</label>
+                            <input type="text" placeholder="Ej. ESCOM" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-sm text-slate-200 focus:border-emerald-500 focus:outline-none">
+                        </div>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">Tipo de Aparato</label>
+                                <input type="text" placeholder="Ej. Laptops o Telefonos" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-sm text-slate-200 focus:border-emerald-500 focus:outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">Peso Total (kg)</label>
+                                <input type="number" step="0.1" placeholder="450.5" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-sm text-slate-200 focus:border-emerald-500 focus:outline-none">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Responsable de Almacén</label>
+                            <input type="text" placeholder="Nombre del operador" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-sm text-slate-200 focus:border-emerald-500 focus:outline-none">
+                        </div>
+                        <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-2.5 rounded-lg transition text-sm shadow-lg shadow-emerald-900/30">
+                            + Registrar Recepción en Sistema
+                        </button>
+                    </form>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 shadow-xl lg:col-span-2">
+                    <h3 class="text-lg font-bold text-white mb-4">Últimas Recepciones en Almacén</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-sm">
+                            <thead>
+                                <tr class="border-b border-slate-700 text-slate-400">
+                                    <th class="py-2.5 px-3">Folio</th>
+                                    <th class="py-2.5 px-3">Fecha</th>
+                                    <th class="py-2.5 px-3">Donante</th>
+                                    <th class="py-2.5 px-3">Equipo</th>
+                                    <th class="py-2.5 px-3">Peso</th>
+                                    <th class="py-2.5 px-3">Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-700/50 text-slate-300">
+                                <tr>
+                                    <td class="py-3 px-3 font-mono text-emerald-400">REC-2026-089</td>
+                                    <td class="py-3 px-3">11/Oct/2026</td>
+                                    <td class="py-3 px-3 font-medium text-white">Servicios Digitales S.A.</td>
+                                    <td class="py-3 px-3">Servidores de Rack</td>
+                                    <td class="py-3 px-3">320.0 kg</td>
+                                    <td class="py-3 px-3">
+                                        <span class="bg-amber-500/10 text-amber-400 text-xs px-2 py-0.5 rounded border border-amber-500/20">
+                                            En Desensamble
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-3 font-mono text-emerald-400">REC-2026-088</td>
+                                    <td class="py-3 px-3">10/Oct/2026</td>
+                                    <td class="py-3 px-3 font-medium text-white">Juanito Pérez Gómez</td>
+                                    <td class="py-3 px-3">Laptops viejas y Celulares</td>
+                                    <td class="py-3 px-3">15.5 kg</td>
+                                    <td class="py-3 px-3">
+                                        <span class="bg-emerald-500/10 text-emerald-400 text-xs px-2 py-0.5 rounded border border-emerald-500/20">
+                                            Clasificado
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
