@@ -61,8 +61,15 @@ La tabla resume los privilegios otorgados a cada rol sobre el sistema de gestió
 ## 4. Evidencia de Pruebas y Comprobación con REVOKE
 
 * **Prueba Rol Aplicación (`rol_app`):** Consulta permitida e intento de inserción denegado por el gestor.
+<<<<<<< practica4-5
+
+![Evidencia 1](imagenes/1.jpeg)
+
+![Evidencia 2](imagenes/2.jpeg)
+=======
 ![Evidencia 1](./imagenes/1.jpeg)
 ![Evidencia 2](./imagenes/2.jpeg)
+>>>>>>> practica2
 
 * **Prueba Rol Consulta (`rol_consulta`):** Lectura permitida e intento de modificación/eliminación denegado.
 
@@ -74,4 +81,8 @@ La tabla resume los privilegios otorgados a cada rol sobre el sistema de gestió
 
 ![Evidencia 5](imagenes/5.jpeg)
 
+<<<<<<< practica4-5
 ![Evidencia 6](imagenes/6.jpeg)
+=======
+![Evidencia 6](imagenes/6.jpeg)
+>>>>>>> practica2
