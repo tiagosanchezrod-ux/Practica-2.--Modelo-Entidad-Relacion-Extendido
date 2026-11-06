@@ -48,9 +48,14 @@ el 2.
 * **Migraciones SQL:**
   * [Script 001 - Dominios](practica4/migraciones/001-dominios.sql)
   * [Script 002 - Restricciones](practica4/migraciones/002-restricciones.sql)
-  * * **Scripts SQL (Ejecutables):**
+* * **Scripts SQL (Ejecutables):**
   * [Esquema Principal](practica3/sql/esquema.sql)
   * [Pruebas de Restricciones](practica3/sql/pruebas-restricciones.sql)
+* * **Documentación y Ejecuciones:**
+  * [Documento 1.7](1.7.docx)
+  * [Dominios](dominios.md)
+  * [Ejecución 1](ejecucion1.txt)
+  * [Ejecución 2](ejecucion2.txt)
 
 ---
 
